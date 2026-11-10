@@ -1,0 +1,57 @@
+[uci      0s] easy J 0.4455 test acc 0.8 auc 0.907
+[uci      0s] B 0 J 0.6159 2 tests acc 0.687
+[uci      0s] B 5 J 0.5136 3 tests acc 0.783
+[uci      0s] B 10 J 0.512 4 tests acc 0.778
+[uci      0s] B 20 J 0.512 4 tests acc 0.778
+[uci      0s] B 30 J 0.5106 5 tests acc 0.791
+[uci      0s] B 50 J 0.5099 6 tests acc 0.787
+[uci      0s] B 75 J 0.4869 4 tests acc 0.796
+[uci      0s] B 100 J 0.4852 6 tests acc 0.796
+[uci      0s] B 150 J 0.4675 6 tests acc 0.783
+[uci      0s] B 200 J 0.46 7 tests acc 0.813
+[uci      0s] B 300 J 0.4569 9 tests acc 0.809
+[uci      0s] B 400 J 0.4569 11 tests acc 0.809
+[uci      0s] B 600 J 0.4512 10 tests acc 0.817
+[uci      0s] B 1000 J 0.4458 11 tests acc 0.804
+[uci      0s] B* (elbow) 150
+[uci      0s] K 1 J 0.5542 cost 5.0
+[uci      0s] K 2 J 0.5202 cost 75.0
+[uci      0s] K 3 J 0.4885 cost 135.0
+[uci      0s] K 4 J 0.4744 cost 135.0
+[uci      0s] K 5 J 0.4662 cost 195.0
+[uci      0s] K 6 J 0.4587 cost 495.0
+[uci      0s] K 7 J 0.4528 cost 895.0
+[uci      0s] K 8 J 0.4487 cost 895.0
+[uci      0s] K 9 J 0.4474 cost 915.0
+[uci      0s] K 10 J 0.4463 cost 930.0
+[uci      0s] K 11 J 0.4458 cost 1000.0
+[uci      1s] K 12 J 0.4456 cost 1005.0
+[uci      1s] K 13 J 0.4455 cost 1055.0
+[uci      1s] K* (elbow) 4
+[uci      1s] dp frac 1.0 J 0.4744 dp_gap_prob 0.26 acc 0.809
+[uci      1s] dp frac 0.75 J 0.4769 dp_gap_prob 0.202 acc 0.809
+[uci      1s] dp frac 0.5 J 0.4831 dp_gap_prob 0.11 acc 0.77
+[uci      1s] dp frac 0.25 J 0.5042 dp_gap_prob 0.047 acc 0.778
+[uci      2s] dp frac 0.1 J 0.5186 dp_gap_prob 0.002 acc 0.765
+[uci      3s] dp frac 0.0 J 0.5299 dp_gap_prob 0.035 acc 0.743
+[uci      3s] eo frac 1.0 J 0.4744 dp_gap_prob 0.26 acc 0.809
+[uci      3s] eo frac 0.75 J 0.478 dp_gap_prob 0.188 acc 0.809
+[uci      3s] eo frac 0.5 J 0.4827 dp_gap_prob 0.151 acc 0.8
+[uci      3s] eo frac 0.25 J 0.4832 dp_gap_prob 0.109 acc 0.761
+[uci      3s] eo frac 0.1 J 0.4929 dp_gap_prob 0.1 acc 0.761
+[uci      3s] eo frac 0.0 J 0.498 dp_gap_prob 0.074 acc 0.787
+[uci      4s] PoR (train loss) 0.0376
+[uci     12s] heuristic matches exact: 32 / 32
+[uci     12s] seed 1 ['age', 'cp', 'thalch', 'oldpeak'] acc 0.726
+[uci     12s] seed 2 ['sex', 'cp', 'thalch', 'oldpeak'] acc 0.774
+[uci     12s] seed 3 ['age', 'cp', 'thalch', 'oldpeak'] acc 0.757
+[uci     13s] seed 4 ['age', 'cp', 'thalch', 'oldpeak'] acc 0.774
+[uci     13s] seed 5 ['sex', 'cp', 'thalch', 'oldpeak'] acc 0.8
+[uci     14s] seed 6 ['age', 'cp', 'exang', 'oldpeak'] acc 0.774
+[uci     14s] seed 7 ['age', 'cp', 'exang', 'oldpeak'] acc 0.748
+[uci     14s] seed 8 ['age', 'cp', 'thalch', 'oldpeak'] acc 0.761
+[uci     15s] seed 9 ['sex', 'cp', 'thalch', 'oldpeak'] acc 0.739
+[uci     15s] seed 10 ['age', 'cp', 'exang', 'oldpeak'] acc 0.761
+[uci     21s] cost-sensitivity done
+[uci    134s] site-robustness done ['sex', 'cp', 'exang', 'oldpeak']
+[uci    134s] DONE

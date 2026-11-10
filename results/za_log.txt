@@ -1,0 +1,63 @@
+[za     12s] easy J 0.2685 test acc 0.842 auc 0.931
+[za     12s] B 0 J 0.5336 2 tests acc 0.737
+[za     13s] B 5 J 0.3968 5 tests acc 0.829
+[za     13s] B 10 J 0.3733 7 tests acc 0.842
+[za     14s] B 20 J 0.3586 7 tests acc 0.829
+[za     15s] B 30 J 0.3432 9 tests acc 0.882
+[za     18s] B 40 J 0.329 14 tests acc 0.842
+[za     21s] B 60 J 0.3139 17 tests acc 0.842
+[za     26s] B 80 J 0.3049 21 tests acc 0.829
+[za     35s] B 100 J 0.2995 24 tests acc 0.829
+[za     51s] B 150 J 0.2935 37 tests acc 0.829
+[za     62s] B 200 J 0.2956 15 tests acc 0.882
+[za     83s] B 300 J 0.2769 37 tests acc 0.829
+[za    107s] B 450 J 0.272 38 tests acc 0.842
+[za    107s] B 700 J 0.2685 54 tests acc 0.842
+[za    107s] B* (elbow) 80
+[za    107s] K 1 J 0.4829 cost 2.0
+[za    107s] K 2 J 0.4199 cost 2.0
+[za    108s] K 3 J 0.3758 cost 152.0
+[za    109s] K 4 J 0.3556 cost 154.0
+[za    111s] K 5 J 0.3442 cost 304.0
+[za    113s] K 6 J 0.3343 cost 312.0
+[za    120s] K 8 J 0.3199 cost 175.0
+[za    125s] K 10 J 0.3083 cost 327.0
+[za    130s] K 12 J 0.3004 cost 338.0
+[za    146s] K 15 J 0.2905 cost 344.0
+[za    157s] K 20 J 0.2799 cost 515.0
+[za    157s] K* (elbow) 5
+[za    160s] dp frac 1.0 J 0.3731 dp_gap_prob 0.081 acc 0.816
+[za    163s] dp frac 0.75 J 0.3731 dp_gap_prob 0.081 acc 0.816
+[za    166s] dp frac 0.5 J 0.3731 dp_gap_prob 0.081 acc 0.816
+[za    170s] dp frac 0.25 J 0.374 dp_gap_prob 0.076 acc 0.855
+[za    174s] dp frac 0.1 J 0.3749 dp_gap_prob 0.076 acc 0.868
+[za    184s] dp frac 0.0 J 0.3758 dp_gap_prob 0.077 acc 0.803
+[za    187s] eo frac 1.0 J 0.3731 dp_gap_prob 0.081 acc 0.816
+[za    194s] eo frac 0.75 J 0.3831 dp_gap_prob 0.062 acc 0.882
+[za    202s] eo frac 0.5 J 0.3835 dp_gap_prob 0.061 acc 0.882
+[za    216s] eo frac 0.25 J 0.3838 dp_gap_prob 0.06 acc 0.882
+[za    224s] eo frac 0.1 J 0.3841 dp_gap_prob 0.059 acc 0.882
+[za    237s] eo frac 0.0 J 0.3843 dp_gap_prob 0.059 acc 0.882
+[za    241s] PoR (train loss) 0.1046
+[za    246s] seed 1 ['Age', 'DM', 'HTN', 'Typical Chest Pain', 'Tinversion'] acc 0.842
+[za    256s] seed 2 ['Age', 'Sex', 'Typical Chest Pain', 'Tinversion', 'FBS'] acc 0.829
+[za    259s] seed 3 ['Age', 'BP', 'Typical Chest Pain', 'Atypical', 'TG'] acc 0.829
+[za    263s] seed 4 ['Age', 'HTN', 'PR', 'Typical Chest Pain', 'Na'] acc 0.776
+[za    267s] seed 5 ['Age', 'DM', 'Typical Chest Pain', 'Tinversion', 'TG'] acc 0.816
+[za    273s] seed 6 ['Age', 'PR', 'Typical Chest Pain', 'CR', 'TG'] acc 0.855
+[za    277s] seed 7 ['Age', 'Typical Chest Pain', 'Tinversion', 'TG', 'WBC'] acc 0.816
+[za    284s] seed 8 ['Age', 'DM', 'BP', 'Typical Chest Pain', 'Tinversion'] acc 0.763
+[za    287s] seed 9 ['Age', 'HTN', 'Typical Chest Pain', 'TG', 'WBC'] acc 0.816
+[za    290s] seed 10 ['Age', 'HTN', 'PR', 'Typical Chest Pain', 'Tinversion'] acc 0.855
+[za    295s] seed 11 ['Age', 'PR', 'Typical Chest Pain', 'Tinversion', 'TG'] acc 0.803
+[za    298s] seed 12 ['Age', 'Typical Chest Pain', 'Nonanginal', 'Tinversion', 'TG'] acc 0.789
+[za    301s] seed 13 ['Age', 'DM', 'BP', 'Typical Chest Pain', 'TG'] acc 0.855
+[za    303s] seed 14 ['Age', 'DM', 'Typical Chest Pain', 'Tinversion', 'TG'] acc 0.829
+[za    309s] seed 15 ['Age', 'DM', 'Typical Chest Pain', 'Tinversion', 'CR'] acc 0.816
+[za    312s] seed 16 ['Age', 'HTN', 'Typical Chest Pain', 'St Depression', 'TG'] acc 0.776
+[za    314s] seed 17 ['Age', 'DM', 'PR', 'Typical Chest Pain', 'TG'] acc 0.829
+[za    316s] seed 18 ['Age', 'DM', 'BP', 'Typical Chest Pain', 'Tinversion'] acc 0.829
+[za    318s] seed 19 ['Age', 'BP', 'Typical Chest Pain', 'Tinversion', 'TG'] acc 0.803
+[za    319s] seed 20 ['Age', 'DM', 'Typical Chest Pain', 'Tinversion', 'TG'] acc 0.829
+[za    357s] cost-sensitivity done
+[za    357s] DONE
