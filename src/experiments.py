@@ -44,7 +44,6 @@ gap0 = {f: abs(fairness_vec(P.X, P.y, d["sex_tr"], f) @ theta_easy[:-1]) for f i
 res["gap0_surrogate"] = gap0
 
 # ---- E1: budget sweep (Pareto) ------------------------------------------------
-costs_sorted = np.unique(np.round(np.cumsum(np.sort(P.cost)), 0))
 Bgrid = sorted(set([0, 5, 10, 20, 30, 50, 75, 100, 150, 200, 300, 400, 600, 1000]) if name == "uci"
                else set([0, 5, 10, 20, 30, 40, 60, 80, 100, 150, 200, 300, 450, 700]))
 res["budget_sweep"] = []
